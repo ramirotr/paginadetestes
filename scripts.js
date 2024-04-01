@@ -1,17 +1,1 @@
-function applyInsaneStyles(element) {
-    element.style.backgroundColor = getRandomColor();
-  }
-  
-  function resetInsaneStyles(element) {
-    element.style.backgroundColor = "#fff";
-  }
-  
-  function getRandomColor() {
-    var letters = "0123456789ABCDEF";
-    var color = "#";
-    for (var i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-  }
-  
+function applyInsaneStyles(o){o.style.backgroundColor=getRandomColor()}function resetInsaneStyles(o){o.style.backgroundColor="#fff"}function getRandomColor(){for(var o="#",n=0;n<6;n++)o+="0123456789ABCDEF"[Math.floor(16*Math.random())];return o}
