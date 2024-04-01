@@ -8,6 +8,7 @@ body {
     text-align: center;
     margin-bottom: 5%;
     background-color: white;
+    width: 100%;
   }
   
   .item {
@@ -22,6 +23,7 @@ body {
   footer {
     text-align: center;
     background-color: white;
+    width: 100%;
   }
   .whatsapp-button {
     position: fixed;
@@ -79,3 +81,4 @@ body {
     text-align: center;
     color: white;
   }
+
